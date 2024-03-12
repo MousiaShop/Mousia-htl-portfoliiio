@@ -1,0 +1,53 @@
+#navbar{
+    text-align: center;
+    flex-direction: column;
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 80px;
+    font-size: 0.75rem;
+}
+
+/* Home Section */
+
+#home img{
+    width: auto;
+    height: 13rem;
+    border-radius: 100%;
+}
+
+/* About section */
+
+#about .items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+#training .items .item{
+    margin: 1rem;
+}
+
+/* course shop section */
+
+
+.courses .course{
+    flex-direction: column;
+    padding-left: 1.5rem ;
+    padding-right: 0.25rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.courses .course .course-image{
+
+    padding-left: 2rem;
+    padding-right: 0;
+
+
+}
+
+.courses .course .course-image span{
+    display: none;
+}

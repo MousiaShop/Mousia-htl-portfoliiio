@@ -1,0 +1,100 @@
+/* text */
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* colors */
+
+.ed-light-brown{
+background: #A15B19;
+}
+
+/* Buttons */
+
+.btn{
+    margin-top: 1.25rem;
+    
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.7px;
+
+}
+.btn-primary{
+    background: #A15B19;
+}
+.btn-primary:hover{
+    background: #A15B19;
+    color: black;
+    
+}
+.btn-dark{
+    background: #333;
+    display: block;
+    width: 100%;
+   padding: 0.25rem;
+   color: #fff;
+   border-radius: 5px;
+}
+.btn-dark:hover
+{
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
+/* icons */
+
+
+.icons{
+    color: #333;
+}
+
+.icons:hover{
+    color: #fff;
+    opacity: 0.5;
+}
+
+
+/*  iamge */ 
+
+
+.img1{
+    height: 13rem;
+    width: 13rem;
+}
+
+
+/* container */ 
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* forms */
+
+.form-group{
+    padding: 0.25rem 0;
+}
+
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 4px;
+}
